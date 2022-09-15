@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65572125c474e6b8883aca15388ce4c, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  MovingYOffset: 10
+  pinkRingPrefab: {fileID: 1425424897396928834, guid: f9b9c9688fb3f884c8c0f96c663c0a2d, type: 3}
+  yellowRingPrefab: {fileID: 7723467560688156976, guid: a34a4057a9c3cf74fb925e729fda900b, type: 3}
+  greenRingPrefab: {fileID: -1704651809556532418, guid: 6f7bd0560d130e641b25f79ad883d4ad, type: 3}
+  blueRingPrefab: {fileID: -4282042713040799800, guid: 6a54bbf783bffd645a833b18c233ae5f, type: 3}

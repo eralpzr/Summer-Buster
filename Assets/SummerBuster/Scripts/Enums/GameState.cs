@@ -1,4 +1,4 @@
-﻿namespace MoneyBuster.Enums
+﻿namespace SummerBuster.Enums
 {
     public enum GameState
     {

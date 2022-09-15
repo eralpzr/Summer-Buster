@@ -1,5 +1,8 @@
 ﻿using System.Collections;
-using MoneyBuster.Enums;
+using SummerBuster.Data;
+using SummerBuster.Enums;
+using SummerBuster.Gameplay;
+using SummerBuster.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,12 +13,16 @@ namespace SummerBuster.Manager
         public bool isDebug;
         public int debugLevel;
         
-        [Space, SerializeField] private string[] _levels;
+        [Space] public Camera mainCamera;
+        public GameData gameData;
         
+        [Space, SerializeField] private string[] _levels;
+
         private string _currentLevelScene;
 
         public GameState GameState { get; set; }
-        
+        public Level Level { get; set; }
+
         protected override void Awake()
         {
             base.Awake();

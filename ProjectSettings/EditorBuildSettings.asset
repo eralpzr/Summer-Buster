@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SummerBuster/Scenes/Master Scene.unity
     guid: 628f06534590a2646b941401abfa1746
+  - enabled: 1
+    path: Assets/SummerBuster/Scenes/Levels/Level 1.unity
+    guid: 5ce85902a035b63408c4ef5ec6e3bf07
+  - enabled: 1
+    path: Assets/SummerBuster/Scenes/Levels/Level 2.unity
+    guid: 6359bbe8ee0702848971b22d778245cc
+  - enabled: 1
+    path: Assets/SummerBuster/Scenes/Levels/Level 3.unity
+    guid: 14104cf9e2891d942841371c0595b967
   m_configObjects: {}
