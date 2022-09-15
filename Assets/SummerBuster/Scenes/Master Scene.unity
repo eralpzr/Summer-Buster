@@ -1112,8 +1112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 589e4a7ac49648e6a29835cf9380345e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDebug: 1
-  debugLevel: 1
+  isDebug: 0
+  debugLevel: 2
   mainCamera: {fileID: 1022290994}
   gameData: {fileID: 11400000, guid: 2afb1d028f7343341b2d30bf59ddafe0, type: 2}
   _levels:

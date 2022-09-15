@@ -11,6 +11,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/7f/e2cd4414/GenericEqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SummerBuster/Scripts/Manager/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9a/d91c074c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/ca/7363510e/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ca/ad3754b9/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Eo1emRnScyj3M6fV4jD98bCVzn" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663247222159</updated>
-      <workItem from="1663247226207" duration="9112000" />
+      <workItem from="1663247226207" duration="10315000" />
     </task>
     <servers />
   </component>

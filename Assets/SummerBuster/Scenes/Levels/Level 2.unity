@@ -186,11 +186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[0]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[1]
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6477059445265326371, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: m_Name
@@ -267,11 +267,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[0]
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[1]
@@ -357,19 +357,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[0]
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[1]
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -2358202745566895179, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: _initialRings.Array.data[2]
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6477059445265326371, guid: 5702bf5960dbf9d4eb925afa22879864, type: 3}
       propertyPath: m_Name

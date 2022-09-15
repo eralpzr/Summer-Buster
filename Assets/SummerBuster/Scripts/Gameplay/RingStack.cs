@@ -45,10 +45,10 @@ namespace SummerBuster.Gameplay
 
         public bool Check()
         {
-            if (_rings.Count < 2)
+            if (_rings.Count == 1)
                 return false;
             
-            return _rings.Select(x => x.ringColor).Distinct().Count() == 1;
+            return _rings.Count == 0 || _rings.Select(x => x.ringColor).Distinct().Count() == 1;
         }
         
         private void Initialize()

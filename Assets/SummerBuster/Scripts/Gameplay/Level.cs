@@ -84,7 +84,11 @@ namespace SummerBuster.Gameplay
         private void CheckRings()
         {
             var success = _ringStacks.All(x => x.Check());
-            Debug.Log("Level Completed!");
+            if (!success)
+                return;
+
+            UIManager.Instance.scoreText.Show("NICE", 25);
+            GameManager.Instance.StartCoroutine(GameManager.Instance.CompleteLevelCoroutine(false));
         }
     }
 }
