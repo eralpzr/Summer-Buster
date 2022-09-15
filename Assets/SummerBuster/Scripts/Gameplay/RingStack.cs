@@ -11,6 +11,7 @@ namespace SummerBuster.Gameplay
     public sealed class RingStack : MonoBehaviour
     {
         [SerializeField] private float _stackSpace;
+        [SerializeField] private Animator _animator;
         [Space, SerializeField] private RingColor[] _initialRings;
         
         private readonly Stack<Ring> _rings = new Stack<Ring>();
@@ -49,6 +50,11 @@ namespace SummerBuster.Gameplay
                 return false;
             
             return _rings.Count == 0 || _rings.Select(x => x.ringColor).Distinct().Count() == 1;
+        }
+
+        public void StartDance()
+        {
+            _animator.SetTrigger("Dance");
         }
         
         private void Initialize()
@@ -90,6 +96,7 @@ namespace SummerBuster.Gameplay
             return transform.TransformPoint(new Vector3(0f, 20f + _stackSpace * idx, 0f));
         }
 
+        public bool IsEmpty => _rings.Count == 0;
         public Vector3 GhostRingPosition => GetRingPosition(_rings.Count);
         public bool CanBePop { get; private set; }
     }

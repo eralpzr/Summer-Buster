@@ -87,7 +87,12 @@ namespace SummerBuster.Gameplay
             if (!success)
                 return;
 
+            var emptyRingStack = _ringStacks.FirstOrDefault(x => x.IsEmpty);
+            if (emptyRingStack)
+                emptyRingStack.StartDance();
+                
             UIManager.Instance.scoreText.Show("NICE", 25);
+            GameManager.Instance.GiveScore(25);
             GameManager.Instance.StartCoroutine(GameManager.Instance.CompleteLevelCoroutine(false));
         }
     }
